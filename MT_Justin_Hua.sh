@@ -8,7 +8,7 @@ if [ "$hostname" != "google.com" ]; then
   exit 1
 fi
 
-#  
+#created file to store ping results
 ping -c 5 "$hostname" > ping_results.txt
 
 # Print a message indicating that the ping is complete
